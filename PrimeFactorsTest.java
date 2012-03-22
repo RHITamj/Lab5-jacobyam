@@ -12,4 +12,10 @@ public class PrimeFactorsTest {
 	public void testJUnit(){
 		assertTrue("Testing JUnit",true);
 	}
+	
+	@Test
+	public void testOne(){
+		assertEquals(list(), PrimeNumbers.generatePrimes(1));
+	}
+	
 }
