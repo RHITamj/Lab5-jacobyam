@@ -18,4 +18,21 @@ public class PrimeFactorsTest {
 		assertEquals(list(), PrimeNumbers.generatePrimes(1));
 	}
 	
+	@Test
+	public void testTwo(){
+		assertEquals(list(2),PrimeNumbers.generatePrimes(2));
+	}
+	
+	@Test
+	public void testTree(){
+		assertEquals(list(3),PrimeNumbers.generatePrimes(3));
+	}
+	
+	private ArrayList<Integer> list(int... ints){
+		ArrayList<Integer> ret = new ArrayList<Integer>();
+		for(int i:ints){
+			ret.add(i);
+		}
+		return ret;
+	}
 }
