@@ -33,6 +33,10 @@ public class PrimeFactorsTest {
 		assertEquals(list(2,2),PrimeNumbers.generatePrimes(4));
 	}
 	
+	public void testSix(){
+		assertEquals(list(2,3), PrimeNumbers.generatePrimes(6));
+	}
+	
 	private ArrayList<Integer> list(int... ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for(int i:ints){
