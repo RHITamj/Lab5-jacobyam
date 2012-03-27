@@ -43,6 +43,16 @@ public class PrimeFactorsTest {
 		assertEquals(list(2,2,2), PrimeNumbers.generatePrimes(8));
 	}
 	
+	@Test
+	public void testNine(){
+		assertEquals(list(3,3), PrimeNumbers.generatePrimes(9));
+	}
+	
+	@Test
+	public void testBigNumber(){
+		assertEquals(list(5,7,7,1327), PrimeNumbers.generatePrimes(325115));
+	}
+	
 	private ArrayList<Integer> list(int... ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for(int i:ints){
