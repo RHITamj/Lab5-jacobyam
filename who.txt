@@ -1,0 +1,6 @@
+Luke Mader
+Alex Jacoby
+
+Completed first part of lab in class before reading the requirement for multiple commits to show TDD. Sriram said to mention this here.
+
+Later switched laptops and continued with pair-programming on single laptop.
